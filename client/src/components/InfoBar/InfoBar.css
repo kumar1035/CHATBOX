@@ -1,0 +1,49 @@
+.infoBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #6C63FF, #8E2DE2);
+  border-radius: 10px 10px 0 0;
+  height: 60px;
+  width: 100%;
+  padding: 0 20px;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 2px 8px rgba(108, 99, 255, 0.3);
+}
+
+.leftInnerContainer {
+  flex: 0.7;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.roomHeading {
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: 12px;
+}
+
+.rightInnerContainer {
+  flex: 0.3;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.onlineIcon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.closeButton img {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1);
+  transition: filter 0.3s ease;
+  cursor: pointer;
+}
+
+.closeButton img:hover {
+  filter: brightness(0.8) invert(1);
+}
